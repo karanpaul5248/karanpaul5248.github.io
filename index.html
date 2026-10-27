@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- v7.33: the hero photo starts downloading with the document,
+         ahead of the app bundle, so it is ready when the intro
+         lifts instead of popping in after the headline. If
+         images/hero.jpg is absent this 404s harmlessly and the
+         built-in hero-original fallback still loads. -->
+    <link rel="preload" as="image" href="/images/hero.jpg" fetchpriority="high" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0e0d0b" />
     <meta name="description" content="KaranKreation — Canada-based wedding photography, cinematic wedding films, Anand Karaj and Punjabi wedding coverage, music videos and commercial production. Available for destination weddings worldwide." />
