@@ -1,0 +1,33 @@
+KaranKreation v7.58 'Step 6 - Five Indexable Pages' + v7.57 Home Screen Fresh Load included
+======================================================================================
+WHAT IS NEW (one version only):
+- NEW: 5 real, indexable pages, each with its own title, description, H1, prices, cities, and FAQ:
+  1. wedding-photography-saskatchewan/
+  2. wedding-photographer-saskatoon/
+  3. anand-karaj-photographer-saskatchewan/
+  4. drone-wedding-film-saskatchewan/
+  5. cinematic-music-video-saskatchewan/
+  Main site URLs are UNCHANGED (/#/gallery, /#/packages, /#/contact still work).
+  Footer now links to these 5 pages, under "Photography in Saskatchewan".
+- INCLUDED from v7.57: iPhone home-screen app reloads fresh on resume from background,
+  normal Safari untouched, reload skipped if a form field has text. Delete/re-add the
+  home-screen icon once after upload, so the new meta tags are picked up.
+- Sitemap updated to list the homepage + all 5 new pages. No hash URLs in the sitemap.
+- Home design, hero, prices, and gallery are UNCHANGED.
+
+UPLOAD, GitHub Desktop, in this order:
+1. Upload index.html to the repo ROOT (replace the old one).
+2. Upload the assets folder to the repo ROOT (replace app.js, app.css, hero-original.jpg, story-original.jpg).
+3. Upload all 5 new folders to the repo ROOT, each with its index.html inside.
+4. Upload sitemap.xml to the repo ROOT (replace the old one). robots.txt is already correct, replace it too if you like.
+5. DO NOT delete anything. DO NOT delete the CNAME file. DO NOT touch images/, videos/, or music/.
+6. Commit and Push. Wait about 10 minutes for GitHub Pages.
+7. Then, in Search Console, resubmit sitemap https://karankreation.com/sitemap.xml once.
+   In Bing Webmaster Tools, Sitemaps, submit the same sitemap once.
+   Do NOT submit hash URLs, and do NOT re-request indexing repeatedly.
+8. Test once, do NOT refresh repeatedly: open karankreation.com/wedding-photographer-saskatoon/
+   - it should load as a real page, title "Wedding Photographer in Saskatoon, Saskatchewan",
+   - with prices and the Saskatoon/Regina/Warman/Martensville/Prince Albert list,
+   - and links to Packages and Contact that open the main site.
+   Google will take days to weeks to index the new pages. This does NOT mean #1 tomorrow
+   for "wedding photographer Saskatoon" - it means Google now has pages it can rank.
