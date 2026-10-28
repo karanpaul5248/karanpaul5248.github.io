@@ -11,6 +11,14 @@
     <link rel="preload" as="image" href="/images/hero.jpg" fetchpriority="high" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0e0d0b" />
+    <!-- v7.57 Home Screen Fresh Load: tell iOS this is a standalone
+         home-screen app (no Safari bars, dark status bar, app title),
+         so the fresh-load code in main.ts can detect standalone mode.
+         No design change, no icon change. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KaranKreation" />
     <!-- v7.56 SEO Step 1 — backend only, invisible on the page:
          title + description now carry the Saskatchewan wedding
          keywords, and every canonical/social URL now points to
