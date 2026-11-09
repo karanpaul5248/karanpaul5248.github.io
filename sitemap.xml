@@ -2,42 +2,163 @@
 <!-- Hash routing is used for reliable GitHub Pages navigation for the main
      site, so the canonical public entry point is the root URL. Client routes
      live at /#/gallery, /#/testimonials, /#/packages and /#/contact.
-     Step 6 adds five real static landing pages, listed below, which Google
-     and Bing can index separately. -->
+     Step 6 (v7.58) added five real static landing pages. v7.59 adds twenty
+     more, for 25 indexable landing pages plus the homepage. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://karankreation.com/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://karankreation.com/wedding-photography-saskatchewan/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://karankreation.com/wedding-photographer-saskatoon/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photography-packages-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://karankreation.com/anand-karaj-photographer-saskatchewan/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/indian-wedding-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/punjabi-wedding-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/christian-wedding-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/destination-wedding-photographer-canada/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/elopement-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photographer-regina/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-videographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/cinematic-wedding-film-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/affordable-wedding-photographer-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://karankreation.com/drone-wedding-film-saskatchewan/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/drone-photography-saskatchewan/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://karankreation.com/cinematic-music-video-saskatchewan/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/engagement-photographer-saskatoon/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photographer-warman/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photographer-martensville/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/wedding-photographer-prince-albert/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/event-photographer-saskatoon/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/portrait-photographer-saskatoon/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/commercial-video-production-saskatoon/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://karankreation.com/about/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

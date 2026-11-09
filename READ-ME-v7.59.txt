@@ -1,0 +1,52 @@
+KaranKreation website — v7.59 "Twenty Pages + Since 2017"
+=========================================================
+
+WHAT'S NEW
+----------
+1. 20 NEW indexable pages (in addition to the 5 from v7.58):
+   - Indian, Christian, Punjabi, destination, elopement weddings
+   - Engagement, wedding videography, cinematic wedding film
+   - Regina, Warman, Martensville, Prince Albert city pages
+   - Event, portrait, commercial video, drone photography
+   - Wedding packages, province hub, affordable, and a new About page
+   Total: 25 landing pages + homepage = 26 URLs in the sitemap.
+2. Every one of the 25 pages has its OWN real gallery photo — no page
+   repeats the main hero picture. (The 5 older pages got new photos too.)
+3. "Filming since 2017." — your 9 years of experience is now on every
+   page, in the footer, and in the search-engine data (foundingDate 2017).
+4. Prices unchanged: photo $1,200 / video $1,800 / photo+video $2,800 /
+   complete with drone $3,200 / music video $2,200 CAD.
+
+WHAT TO UPLOAD (GitHub repo karanpaul5248/karanpaul5248.github.io)
+------------------------------------------------------------------
+Upload everything in this ZIP to the ROOT of the repo, overwriting the
+old files. That is: index.html, the assets folder, all 25 page folders,
+sitemap.xml and robots.txt.
+
+Do NOT upload anything else. Your images/, videos/ and music/ folders
+and the CNAME file are NOT in this ZIP and must not be touched.
+
+STEP-BY-STEP
+------------
+1. Go to the repo on GitHub, click "Add file" -> "Upload files".
+2. Drag in everything from this ZIP (index.html, assets, the 25 folders,
+   sitemap.xml, robots.txt). Click "Commit changes".
+3. Wait about 2 minutes, then tell me — I will check the live site
+   myself (file fingerprints) and confirm v7.59 is live. Please do NOT
+   keep refreshing the site yourself — repeated refreshing can trip
+   GitHub's rate limit and make the new version look missing.
+4. After I confirm it is live: in Google Search Console, resubmit the
+   SAME sitemap URL once (https://karankreation.com/sitemap.xml), and
+   do the same once in Bing Webmaster Tools. Do not resubmit repeatedly
+   — Google takes days to weeks to index new pages.
+
+VERIFYING (for me, after upload)
+--------------------------------
+v7.59 fingerprints: app.js 70e4868ace03e0456bae7ee824732cb3
+                    app.css a5d8483ea837c8840e9d445de0617e89
+                    index.html daaf5c82b9c816efd17baaca74878310 (unchanged)
+
+QA done before delivery: every one of the 25 pages returned 200 with its
+own title, its own photo (which loads), the since-2017 line and the 2017
+date in the search data; the homepage intro, gallery and footer were
+checked in a real browser on a replica seeded with your real photos.
